@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ComplaintSystem.SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Complaint System</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .case-info {
+            font-weight: bold;
+            color: #333;
+        }
+        .investigation-grid {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .investigation-grid th, .investigation-grid td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .aspNetButton {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .aspNetButton:hover {
+            background-color: #0056b3;
+        }
+        .input-field {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .docket-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .docket-table td {
+            padding: 5px;
+            vertical-align: top;
+        }
+        .label-cell {
+            font-weight: bold;
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

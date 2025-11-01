@@ -2,7 +2,7 @@
 <h1 align="center">👋 Hey, I'm <strong>Mila Twantwa</strong></h1>
 
 <p align="center">
-  🎓 ICT Student @ Durban University of Technology <br>
+  🎓 SECOND YEAR ICT Student @ Durban University of Technology <br>
   💡 Aspiring Software Developer & Data Engineer <br>
   ⚙️ Passionate about crafting smart and efficient solutions
 </p>
